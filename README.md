@@ -20,9 +20,13 @@ The dataset contains 18,663 question-answer pairs.
 Each data instance contains the following fields:
 
 question: The generated question based on the text block.
+
 answer: The corresponding answer to the generated question.
+
 episode: The title of the podcast episode from which the question-answer pair was extracted.
+
 podcast: The name of the specific program within the "[JinJinLeDao](https://dao.fm/)" podcast where the episode was featured.
+
 ### Data Splits
 The dataset does not have predefined splits. Users can split the data according to their own requirements.
 
