@@ -3,6 +3,7 @@
 **Repository**: https://github.com/tech-podcasts/JinJinLeDao_QA_Dataset
 
 **HuggingFace**: https://huggingface.co/datasets/GanymedeNil/JinJinLeDao_QA_Dataset
+
 ### Dataset Summary
 This dataset contains 18,663 Chinese question-answer pairs extracted from 281 episodes of the Chinese podcast "[JinJinLeDao](https://dao.fm/)". The subtitles were extracted using the OpenAI Whisper transcription tool, and the question-answer pairs were generated using GPT-3.5 by dividing the subtitles into blocks and prompting the model to generate questions and answers.
 
@@ -20,13 +21,9 @@ The dataset contains 18,663 question-answer pairs.
 Each data instance contains the following fields:
 
 question: The generated question based on the text block.
-
 answer: The corresponding answer to the generated question.
-
 episode: The title of the podcast episode from which the question-answer pair was extracted.
-
 podcast: The name of the specific program within the "[JinJinLeDao](https://dao.fm/)" podcast where the episode was featured.
-
 ### Data Splits
 The dataset does not have predefined splits. Users can split the data according to their own requirements.
 
@@ -46,7 +43,7 @@ The source language producers are the hosts of the "[JinJinLeDao](https://dao.fm
 The dataset was annotated using an automated process, in which GPT-3.5 was used to generate questions and answers based on text prompts.
 
 #### Who are the annotators?
-The dataset was annotated using an automated process, without human annotators.
+The initial annotation of the dataset was carried out through an automated process, without the involvement of human annotators. However, we later introduced a manual correction step to improve the accuracy of the data, and we would like to express our gratitude to [Chunhui Gao](https://www.ipip.net/) for taking the time to assist us with this task.
 
 ### Personal and Sensitive Information
 The dataset does not contain any personal or sensitive information, except for some user names mentioned in the audio content.
@@ -74,4 +71,4 @@ If you use this dataset in your research, please cite the following paper:
 N/A
 
 ### Contributions
-Thanks to [JinJinLeDao](https://dao.fm/) for providing the data and to [Hongyang Jin](https://github.com/GanymedeNil) for curating and sharing this dataset.
+Thanks to [JinJinLeDao](https://dao.fm/) for providing the data and to [Hongyang Jin](https://github.com/GanymedeNil) for curating and sharing this dataset.We would also like to express our gratitude to [Chunhui Gao](https://www.ipip.net/) for his assistance in improving the accuracy of the data.
