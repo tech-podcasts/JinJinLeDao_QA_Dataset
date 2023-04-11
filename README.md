@@ -5,7 +5,7 @@
 **HuggingFace**: https://huggingface.co/datasets/GanymedeNil/JinJinLeDao_QA_Dataset
 
 ### Dataset Summary
-v
+The dataset contains over 18,000 Chinese question-answer pairs extracted from 281 episodes of the Chinese podcast "[JinJinLeDao](https://dao.fm/)". The subtitles were extracted using the OpenAI Whisper transcription tool, and the question-answer pairs were generated using GPT-3.5 by dividing the subtitles into blocks and prompting the model to generate questions and answers.
 ### Supported Tasks and Leaderboards
 This dataset can be used for various natural language processing tasks, such as question answering and text generation, among others.
 
@@ -14,7 +14,7 @@ The dataset is in Chinese (Mandarin).
 
 ## Dataset Structure
 ### Data Instances
-The dataset contains 18,663 question-answer pairs.
+The dataset contains over 18,000 question-answer pairs.
 
 ### Data Fields
 Each data instance contains the following fields:
